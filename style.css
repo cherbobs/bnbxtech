@@ -418,7 +418,7 @@
   line-height: 20px;
 }
 
-.desktop .nos-services {
+.desktop .nos-services-left, .nos-services-right {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -992,4 +992,34 @@
   width: 100%;
   height: 388px;
   background-color: var(--bleu-ff);
+}
+
+
+
+.hidden{
+  opacity: 0;
+  transition: all 4s;
+}
+
+
+.show {
+opacity: 1;
+transform: translate(0);
+}
+
+
+.nos-services-left.hidden {
+  transform: translateX(-100%);
+}
+.nos-services-right.hidden {
+  transform: translateX(100%);
+}
+.nos-services-left.show {
+  opacity: 1;
+  transform: translateX(0);
+}
+.nos-services-right.show {
+  opacity: 1;
+  transform: translateX(0);
+
 }
