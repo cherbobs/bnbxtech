@@ -1343,8 +1343,6 @@
       line-height: normal;
   }
 
- 
-
   .page .fun-facts {
       flex-wrap: wrap;
       gap: 24px 24px;
@@ -1703,18 +1701,7 @@
       flex: 0 0 auto;
   }
 
-  .page .text-wrapper-15 {
-      position: relative;
-      flex: 1;
-      margin-top: -1px;
-      font-family: "Montserrat-SemiBold", Helvetica;
-      font-weight: 600;
-      color: #303030;
-      font-size: 20px;
-      letter-spacing: 0;
-      text-align: left;
-      line-height: normal;
-  }
+
 
   .page .bloc-realisations {
       display: flex;
@@ -1771,7 +1758,19 @@
       flex: 0 0 auto;
   }
 
-  
+  .page .text-wrapper-15 {
+    position: relative;
+    flex: 1;
+    margin-top: -1px;
+    font-family: "Montserrat-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #303030;
+    font-size: 20px;
+    letter-spacing: 0;
+    text-align: left;
+    line-height: normal;
+}
+
   .page .text-wrapper-16 {
       position: relative;
       width: fit-content;
@@ -1783,6 +1782,17 @@
       line-height: normal;
   }
 
+  .page .equipement {
+    position: relative;
+    width: 390px;
+    font-family: "Montserrat-Medium", Helvetica;
+    font-weight: 500;
+    color: #303030;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
   .page .line {
       position: relative;
       width: 386px;
@@ -1790,16 +1800,6 @@
       object-fit: cover;
   }
 
-  .page .equipement {
-      position: relative;
-      width: 390px;
-      font-family: "Montserrat-Medium", Helvetica;
-      font-weight: 500;
-      color: #303030;
-      font-size: 16px;
-      letter-spacing: 0;
-      line-height: normal;
-  }
 
   .page .realisation-bouge-wrapper {
       display: flex;
@@ -2005,6 +2005,998 @@
       background-color: var(--bleu-ff);
   }
 }
+
+
+/* Format mobile */
+
+@media only screen and (max-width: 600px) {
+
+  .page {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;
+    background-color: #ffffff;
+}
+
+.page .accueil {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    position: relative;
+    flex: 0 0 auto;
+    background-color: var(--blanc);
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px 72px;
+  width: 100%;
+  position: relative;
+  background-color: var(--blanc);
+  height: 89px;
+}
+
+.header .left-part {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  flex: 1;
+  flex-grow: 1;
+  flex-shrink: 1;
+  height: 65px;
+}
+
+.header .burger-logo {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex: 0 0 auto;
+  height: 25px;
+  width: 100%;
+  margin-top: -0.5px;
+  margin-bottom: -0.5px;
+  gap: 40px;
+}
+
+.header .menu-items {
+width: 0;
+}
+
+.header .nous-contacter-wrapper {
+  display: none;
+}
+
+.header .nous-contacter {
+  display: none;
+}
+
+.header .text-wrapper {
+display: none;
+}
+
+
+
+
+.page .burger {
+    position: relative;
+    width: 24px;
+    height: 18px;
+}
+
+.page .logo-bnb {
+    position: relative;
+    width: 163px;
+    height: 20px;
+}
+
+
+
+.en-tete {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  padding: 40px;
+  position: relative;
+  background-color: #ffffff;
+}
+
+.en-tete .bloc-en-tete {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.en-tete .titre {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.en-tete .rendre-l-impossible {
+  position: relative;
+  align-self: stretch;
+  margin-top: -1px;
+  font-family: "Roboto-Medium", Helvetica;
+  font-weight: 400;
+  color: transparent;
+  font-size: 32px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.en-tete .span{
+  font-weight: 500;
+  color: #303030;
+}
+
+.en-tete .text-wrapper-3 {
+  font-family: "Playfair Display", Helvetica;
+  font-style: italic;
+  color: #3355ff;
+}
+
+.en-tete .p {
+  position: relative;
+  align-self: stretch;
+  font-family: "Roboto-Regular", Helvetica;
+  font-weight: 400;
+  color: #303030;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.en-tete .illustration {
+  position: relative;
+  width: 300px;
+  height: 225px;
+  background-image: url(./img/illu-principale.png);
+  background-size: 100% 100%;
+}
+
+.en-tete .nous-contacter {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.en-tete .div {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 12px 32px;
+  position: relative;
+  flex: 0 0 auto;
+  background-color: #5271ff;
+  border-radius: 12px;
+  overflow: hidden;
+  
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "Roboto-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 12px;
+  text-align: center;
+  letter-spacing: 0.36px;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+
+.page .a-propos {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 44px;
+    padding: 40px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+    background-color: #ffffff;
+}
+
+.page .frame {
+    position: relative;
+    width: 300px;
+    height: 205px;
+}
+
+.page .overlap-group {
+    position: relative;
+    height: 205px;
+}
+
+.page .rectangle {
+    position: absolute;
+    width: 280px;
+    height: 187px;
+    top: 18px;
+    left: 0;
+    background-color: var(--cyan);
+    border-radius: 32px;
+}
+
+.page .gens-affaires-se-wrapper {
+    position: absolute;
+    width: 280px;
+    height: 180px;
+    top: 0;
+    left: 20px;
+    background-color: #ffffff;
+    border-radius: 32px;
+    overflow: hidden;
+}
+
+.page .gens-affaires-se {
+    position: absolute;
+    width: 280px;
+    height: 180px;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+}
+
+.page .bloc-a-propos {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    gap: 44px 44px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+}
+
+.page .texte-a-propos {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 12px;
+    position: relative;
+    flex: 1;
+    flex-grow: 1;
+}
+
+.page .a-propos-de-nous {
+    position: relative;
+    align-self: stretch;
+    margin-top: -1px;
+    font-family: "Roboto-Regular", Helvetica;
+    font-weight: 400;
+    color: #3c378d;
+    font-size: 16px;
+    letter-spacing: 1.6px;
+    line-height: normal;
+}
+
+.page .texte-nos-clients {
+    display: inline-flex;
+    flex-direction: column;
+    height: 109px;
+    align-items: flex-start;
+    gap: 8px;
+    position: relative;
+}
+
+.page .nos-clients-sont {
+  display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    gap: 16px 16px;
+    width: 100%;
+    flex: 0 0 auto;
+    position: relative;
+    align-self: stretch;
+
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: "Roboto-Medium", Helvetica;
+    font-weight: 400;
+    color: transparent;
+    font-size: 24px;
+    letter-spacing: 2.4px;
+    line-height: normal;
+}
+
+.page .text-wrapper-4 {
+    font-weight: 500;
+    color: #000000;
+    letter-spacing: 0.58px;
+}
+
+.page .type {
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    height: 56px;
+}
+
+.page .overlap-group-2 {
+    position: relative;
+    width: 274px;
+    height: 43px;
+    top: -1px;
+}
+
+.page .text-wrapper-6 {
+    position: absolute;
+    height: 43px;
+    top: 0;
+    left: 0;
+    font-family: "Playfair Display", Helvetica;
+    font-weight: 700;
+    font-style: italic;
+    color: var(--cyan-f);
+    font-size: 32px;
+    letter-spacing: 3.2px;
+    line-height: normal;
+}
+
+
+.page .fun-facts {
+    flex-wrap: wrap;
+    gap: 16px 16px;
+    padding: 40px;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+    background-color: #f1f3f9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.page .fun-fact {
+    flex-direction: column;
+    width: 270px;
+    gap: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.page .num {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: "Playfair Display", Helvetica;
+    font-weight: 400;
+    font-style: italic;
+    color: #5271ff;
+    font-size: 24px;
+    text-align: center;
+    letter-spacing: -0.36px;
+    line-height: normal;
+}
+
+.page .text-wrapper-8 {
+    font-family: "Roboto-Medium", Helvetica;
+    font-weight: 400;
+    position: relative;
+    align-self: stretch;
+    color: #303030;
+    font-size: 12px;
+    text-align: center;
+    letter-spacing: 0.12px;
+    line-height: 12px;
+}
+
+.page .text-wrapper-6 {
+    font-weight: 500;
+    letter-spacing: 0.01px;
+}
+
+.page .text-wrapper-7 {
+    font-family: "Roboto-Regular", Helvetica;
+    letter-spacing: 0.01px;
+}
+
+
+
+.page .p {
+    font-family: "Roboto Condensed-Medium", Helvetica;
+    font-weight: 500;
+    position: relative;
+    align-self: stretch;
+    color: #303030;
+    font-size: 12px;
+    text-align: center;
+    letter-spacing: 0.12px;
+    line-height: 12px;
+}
+
+.page .nos-services-right, .nos-services-left {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 44px 44px;
+    padding: 40px;
+    width: 100%;
+    flex: 0 0 auto;
+    background-color: #ffffff;
+    position: relative;
+    align-self: stretch;
+}
+
+.page .bloc-nos-services {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 44px;
+    position: relative;
+    flex: 1;
+    flex-grow: 1;
+}
+
+.page .illu {
+    position: relative;
+    width: 300px;
+    height: 300px;
+}
+
+.page .texte {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+}
+
+.page .nos-services-2 {
+    margin-top: -1px;
+    font-family: "Roboto-Regular", Helvetica;
+    font-weight: 400;
+    color: #312e76;
+    font-size: 16px;
+    letter-spacing: 1.6px;
+    line-height: normal;
+    position: relative;
+    align-self: stretch;
+}
+
+.page .nouveau-produit {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    gap: 12px 12px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+}
+
+.page .text-wrapper-9 {
+    position: relative;
+    flex: 1;
+    margin-top: -1px;
+    font-family: "Roboto-Medium", Helvetica;
+    font-weight: 500;
+    color: #303030;
+    font-size: 24px;
+    letter-spacing: 2.4px;
+    line-height: normal;
+}
+
+.page .text-wrapper-10 {
+    position: relative;
+    font-family: "Montserrat-Medium", Helvetica;
+    font-weight: 500;
+    color: #303030;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.page .bloc-nos-services-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 96px 48px;
+    padding: 40px;
+    width: 100%;
+    flex: 0 0 auto;
+    background-color: #ffffff;
+    position: relative;
+    align-self: stretch;
+}
+
+.page .img {
+    position: relative;
+    width: 250px;
+    height: 250px;
+}
+
+.page .text-wrapper-11 {
+    position: relative;
+    flex: 1;
+    margin-top: -1px;
+    font-family: "Roboto-Medium", Helvetica;
+    font-weight: 500;
+    color: #303030;
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.page .text-wrapper-12 {
+    position: relative;
+    width: 310px;
+    font-family: "Montserrat-Medium", Helvetica;
+    font-weight: 500;
+    color: #303030;
+    font-size: 15px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.page .div-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 96px 96px;
+    padding: 40px;
+    width: 100%;
+    flex: 0 0 auto;
+    background-color: #ffffff;
+    position: relative;
+    align-self: stretch;
+}
+
+
+
+.page .contacter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+    padding: 40px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+    background-color: #3c378d;
+}
+
+.page .texte-2 {
+    justify-content: center;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+}
+
+.page .text-wrapper-12 {
+    position: relative;
+    align-self: stretch;
+    margin-top: -1px;
+    font-family: "Roboto-Medium", Helvetica;
+    font-weight: 500;
+    color: #f1f3f9;
+    font-size: 24px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.page .nous-contacter-2 {
+    background-color: #f1f3f9;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 12px 32px;
+    position: relative;
+    flex: 0 0 auto;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.page .text-wrapper-13 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: "Roboto-Bold", Helvetica;
+    font-weight: 700;
+    color: #3c378d;
+    font-size: 12px;
+    text-align: center;
+    letter-spacing: 0.36px;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.page .nos-realisations {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 36px;
+    padding: 40px;
+    width: 100%;
+    flex: 0 0 auto;
+    background-color: #ffffff;
+    position: relative;
+    align-self: stretch;
+}
+
+.page .texte-3 {
+    gap: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+}
+
+.page .nos-r-alisations {
+    margin-top: -1px;
+    font-family: "Roboto-Regular", Helvetica;
+    font-weight: 400;
+    color: #3c378d;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 1.6px;
+    line-height: normal;
+    position: relative;
+    align-self: stretch;
+}
+
+.page .descriptif {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: center;
+    gap: 16px 16px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+}
+
+.page .text-wrapper-14 {
+    position: relative;
+    flex: 1;
+    margin-top: -1px;
+    font-family: "Roboto-Medium", Helvetica;
+    font-weight: 500;
+    color: #000000;
+    font-size: 24px;
+    text-align: center;
+    letter-spacing: 2.4px;
+    line-height: normal;
+}
+
+.page .bloc-realisations {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 44px 44px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+}
+
+.page .realisation {
+    justify-content: center;
+    gap: 12px;
+    display: flex;
+    width: 300px;
+    height: 400px;
+    align-items: center;
+    position: relative;
+}
+
+.page .realisation-bouge {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 400px;
+    align-items: center;
+    padding: 0px 0px 24px;
+    position: relative;
+    background-color: var(--blanc);
+    border-radius: 16px;
+    overflow: hidden;
+    border: 1px solid;
+    border-color: #b7c1e1;
+}
+
+.page .image-1 {
+  background-image: url(./img/diagnostic-missiles.png);
+  background-size: cover;
+  background-position: 50% 50%;
+  position: relative;
+  width: 298px;
+  height: 163px;
+}
+
+.page .image-2 {
+    background-image: url(./img/hub.png);
+    background-size: cover;
+    background-position: 50% 50%;
+    position: relative;
+    width: 298px;
+    height: 163px;
+}
+
+.page .image-3 {
+  background-image: url(./img/diagnostic-missiles.png);
+  background-size: cover;
+  background-position: 50% 50%;
+  position: relative;
+  width: 298px;
+  height: 163px;
+}
+
+.page .image-4 {
+    background-image: url(./img/metro.png);
+    background-size: cover;
+    background-position: 50% 50%;
+    position: relative;
+    width: 298px;
+    height: 163px;
+}
+
+.page .image-5 {
+  background-image: url(./img/pairage-clef.png);
+  background-size: cover;
+  background-position: 50% 50%;
+  position: relative;
+  width: 298px;
+  height: 163px;
+}
+
+.page .image-6 {
+  background-image: none;
+  background-size: cover;
+  background-position: 50% 50%;
+  position: relative;
+  width: 298px;
+  height: 163px;
+}
+
+
+.page .description {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    padding: 24px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+}
+.page .text-wrapper-15 {
+  position: relative;
+  flex: 1;
+  margin-top: -1px;
+  font-family: "Montserrat-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #303030;
+  font-size: 16px;
+  letter-spacing: 0;
+  text-align: left;
+  line-height: normal;
+}
+
+.page .text-wrapper-16 {
+    position: relative;
+    width: fit-content;
+    font-family: "Montserrat-Medium", Helvetica;
+    font-weight: 500;
+    color: #5271ff;
+    font-size: 12px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.page .equipement {
+  position: relative;
+  width: 100%;
+  font-family: "Montserrat-Medium", Helvetica;
+  font-weight: 500;
+  color: #303030;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+
+
+
+.page .line {
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    height: 1px;
+    object-fit: cover;
+}
+
+.page .text-wrapper-17 {
+    position: relative;
+    align-self: stretch;
+    font-family: "Montserrat-Medium", Helvetica;
+    font-weight: 500;
+    color: var(--noir);
+    font-size: 12px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.page .realisation-bouge-wrapper {
+    display: flex;
+    width: 300px;
+    height: 400px;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    position: relative;
+}
+
+.page .realisation-bouge-2 {
+    flex-direction: column;
+    padding: 0px 0px 24px;
+    background-color: var(--blanc);
+    border-radius: 15px;
+    overflow: hidden;
+    border: 1px solid;
+    border-color: #b7c1e1;
+    display: flex;
+    width: 300px;
+    height: 400px;
+    align-items: center;
+    position: relative;
+}
+
+.page .description-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    padding: 24px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+    margin-bottom: -20px;
+}
+
+
+
+.page .WP-wrapper {
+    position: relative;
+    width: 299px;
+    height: 163px;
+    background-image: url(./img/pairage-clef-concret-1.png);
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.page .WP {
+    position: absolute;
+    width: 299px;
+    height: 163px;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+}
+
+.page .clients-partenaires {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+    padding: 40px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+    background-color: #f1f3f9;
+}
+
+.page .nos-clients-et {
+    position: relative;
+    align-self: stretch;
+    margin-top: -1px;
+    font-family: "Roboto-Regular", Helvetica;
+    font-weight: 400;
+    color: #303030;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 28px;
+}
+
+.page .logo {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 40px 32px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+}
+
+.page .company-logo {
+    position: relative;
+    width: 90px;
+    height: 45px;
+}
+
+
+.page .keolis {
+    position: absolute;
+    width: 90px;
+    height: 14px;
+    top: 16px;
+    left: 0;
+    object-fit: cover;
+}
+
+.page .footer {
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    height: 302px;
+    background-color: var(--bleu-ff);
+}
+
+
+}
+
 
 
 
