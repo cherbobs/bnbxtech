@@ -13,9 +13,9 @@
         <div class="page">
             <header class="header">
                 <div class="left-part">
-                    <div class="burger-logo">
+                    <a class="burger-logo" href="index.html">
                         <img class="logo-bnb" src="img/bnb-logo.svg" />
-                    </div>
+                    </a>
                     <div class="menu-items">
                         <div class="div-wrapper"><a href="index.html" class="text-wrapper">Accueil</a></div>
                         <div class="div-wrapper"><a href="index.html#nos-services-target" class="text-wrapper">Nos services</a></div>

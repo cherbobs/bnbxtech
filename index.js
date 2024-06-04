@@ -32,7 +32,7 @@ hiddenElements.forEach((el) => observer.observe(el));
 
 
 var typed = new Typed(".text-wrapper-6",{
-    strings: ["Grands groupes", "Start-up", "Secteurs publiques", "PME", "Ministères"],
+    strings: ["Grands groupes", "Start-up", "Secteur publique", "PME", "Ministère de l'intérieur et de la défense"],
     typeSpeed : 150,
     backSpeed : 150,
     loop: true,  
