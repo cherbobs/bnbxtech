@@ -2,19 +2,12 @@
 /* Format desktop */
 
 @media only screen and (min-width: 1025px) {
-    .page {
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        position: relative;
-        background-color: #ffffff;
-    }
 
     .frame {
         display: flex;
         flex-wrap: wrap;
         align-items: flex-start;
-        justify-content: space-between;
+        justify-content: center;
         gap: 81px 81px;
         padding: 72px 72px 90px;
         position: relative;
@@ -29,104 +22,6 @@
         position: relative;
         flex: 0 0 auto;
     }
-    
-    header.header {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        padding: 20px 90px;
-        position: relative;
-        align-self: stretch;
-        width: 100%;
-        flex: 0 0 auto;
-        background-color: transparent;
-      }
-      
-    .header .left-part {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 20px 40px 20px 0px;
-    position: relative;
-    flex: 1;
-    flex-grow: 1;
-    }
-    
-    .header .burger-logo {
-    position: relative;
-    flex: 0 0 auto;
-    height: 35px;
-    margin-top: -5px;
-    margin-bottom: -5px;
-    }
-    
-    .header .menu-items {
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    gap: 40px;
-    position: relative;
-    flex: 1;
-    flex-grow: 1;
-    margin-left: -3.05e-5px;
-    }
-    
-    .header .div-wrapper {
-    display: inline-flex;
-    align-items: center;
-    gap: 10px;
-    position: relative;
-    flex: 0 0 auto;
-    }
-    
-    .header .text-wrapper {
-    position: relative;
-    width: fit-content;
-    margin-top: -1px;
-    font-family: "Roboto-Bold", Helvetica;
-    font-weight: 700;
-    color: #303030;
-    font-size: 20px;
-    letter-spacing: 2px;
-    line-height: normal;
-    white-space: nowrap;
-    }
-    
-    .header .right-part {
-    display: inline-flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    flex: 0 0 auto;
-    }
-    
-    .header .nous-contacter {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    padding: 20px 40px;
-    position: relative;
-    flex: 0 0 auto;
-    background-color: #5271ff;
-    border-radius: 16px;
-    overflow: hidden;
-    }
-    
-    .header .div {
-    position: relative;
-    width: fit-content;
-    margin-top: -1px;
-    font-family: "Roboto-Bold", Helvetica;
-    font-weight: 700;
-    color: #ffffff;
-    font-size: 20px;
-    text-align: center;
-    letter-spacing: 0.6px;
-    line-height: normal;
-    white-space: nowrap;
-    }
-    
 
 .div {
     display: inline-flex;
@@ -397,90 +292,7 @@
 /* Format tablette */
 
 @media only screen and (min-width: 601px) and (max-width: 1024px) {
-    .frame {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 81px;
-    padding: 72px 72px 90px;
-    width: 100%;
-    position: relative;
-}
 
-.frame .frame-wrapper {
-    display: inline-flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 28px;
-    padding: 1px 0px;
-    position: relative;
-    flex: 0 0 auto;
-}
-
-
-.header {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 16px 72px;
-    width: 100%;
-    position: relative;
-    background-color: var(--blanc);
-}
-
-.header .left-part {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 20px 90px 20px 0px;
-    position: relative;
-    flex: 1;
-    flex-grow: 1;
-}
-
-.header .burger-logo {
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    flex: 0 0 auto;
-    height: 25px;
-    width: 100%;
-    margin-top: -0.5px;
-    margin-bottom: -0.5px;
-    gap: 40px;
-}
-
-.header .menu-items {
-  width: 0;
-}
-
-.header .nous-contacter-wrapper {
-    display: inline-flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
-    position: relative;
-    flex: 0 0 auto;
-}
-
-.header .nous-contacter {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
-    padding: 16px 36px;
-    position: relative;
-    flex: 0 0 auto;
-    background-color: var(--cyan);
-    border-radius: 16px;
-    overflow: hidden;
-}
-
-.header .text-wrapper {
-  display: none;
-}
 
 .div {
     display: inline-flex;
@@ -748,66 +560,8 @@
 /* Format mobile */
 
 @media only screen and (max-width: 600px) {
-    .frame {
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        gap: 81px;
-        padding: 52px 40px 90px;
-        position: relative;
-    }
-    
-    .frame .frame-wrapper {
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        gap: 28px;
-        padding: 1px 0px;
-        position: relative;
-        align-self: stretch;
-        width: 50%;
-        flex: 0 0 auto;
-    }
-        
-    .header {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        padding: 16px 72px;
-        width: 100%;
-        position: relative;
-        background-color: var(--blanc);
-        height: 89px;
-    }
-    
-    .header .left-part {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        position: relative;
-        flex: 1;
-        flex-grow: 1;
-        flex-shrink: 1;
-        height: 65px;
-    }
-    
-    .header .burger-logo {
-        position: relative;
-        display: flex;
-        align-items: center;
-        justify-content: flex-start;
-        flex: 0 0 auto;
-        height: 25px;
-        width: 100%;
-        margin-top: -0.5px;
-        margin-bottom: -0.5px;
-        gap: 40px;
-    }
-    
-    .header .menu-items {
-    width: 0;
-    }
-    
+
+
     .div {
         display: flex;
         flex-direction: column;
