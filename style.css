@@ -483,7 +483,6 @@
   
   .page .text-wrapper-12 {
     position: relative;
-    align-self: stretch;
     margin-top: -1px;
     font-family: "Roboto Medium", Helvetica;
     font-weight: 500;
@@ -1396,7 +1395,6 @@
 
   .page .text-wrapper-12 {
       position: relative;
-      align-self: stretch;
       font-family: "Montserrat Medium", Helvetica;
       font-weight: 500;
       color: #303030;
@@ -2420,7 +2418,7 @@
 
 .page .text-wrapper-12 {
     position: relative;
-    width: 310px;
+    width: 100%;
     font-family: "Montserrat Medium", Helvetica;
     font-weight: 500;
     color: #303030;
@@ -2473,7 +2471,6 @@
 
 .page .text-wrapper-12 {
     position: relative;
-    align-self: stretch;
     margin-top: -1px;
     font-family: "Roboto Medium", Helvetica;
     font-weight: 500;
