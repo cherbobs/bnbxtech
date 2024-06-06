@@ -45,7 +45,7 @@
         flex: 0 0 auto;
     }
 
-    .frame .text-wrapper {
+    .frame .sous-titre {
         position: relative;
         flex: 1;
         margin-top: -1px;
@@ -175,7 +175,7 @@
         flex: 0 0 auto;
     }
 
-    .frame .text-wrapper {
+    .frame .sous-titre {
         position: relative;
         flex: 1;
         margin-top: -1px;
@@ -303,7 +303,7 @@
         flex: 0 0 auto;
     }
 
-    .frame .text-wrapper {
+    .frame .sous-titre {
         position: relative;
         flex: 1;
         margin-top: -1px;
