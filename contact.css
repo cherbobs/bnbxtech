@@ -53,7 +53,7 @@
         line-height: normal;
     }
     
-    .frame .text-wrapper {
+    .frame .vous{
         font-weight: 500;
         color: #303030;
     }
@@ -94,6 +94,7 @@
     }
     
     .frame .img {
+        color: black;
         position: relative;
         width: 40px;
         height: 40px;
@@ -151,7 +152,7 @@
     .frame .formulaire {
         display: flex;
         flex-direction: column;
-        width: 736px;
+        width: 70%;;
         align-items: center;
         justify-content: center;
         gap: 32px;
@@ -177,7 +178,7 @@
         letter-spacing: 0;
         line-height: normal;
         margin-top: 20px; /* Pour ajouter de l'espace au-dessus du message */
-        width: 736px; /* Même largeur que .formulaire */
+        width: 70%; /* Même largeur que .formulaire */
         text-align: center; /* Aligner le texte au centre */
     }
     
@@ -292,7 +293,25 @@
 /* Format tablette */
 
 @media only screen and (min-width: 601px) and (max-width: 1024px) {
-
+    .frame {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 81px;
+        padding: 72px 72px 90px;
+        position: relative;
+        width: 100%;
+        }
+        .frame .frame-wrapper {
+        display: inline-flex;
+        width: 100%;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 28px;
+        padding: 1px 0px;
+        position: relative;
+        flex: 0 0 auto;
+        }
 
 .div {
     display: inline-flex;
@@ -324,7 +343,7 @@
     line-height: normal;
 }
 
-.frame .text-wrapper {
+.frame .vous {
     font-weight: 500;
     color: #303030;
 }
@@ -417,9 +436,9 @@
 }
 
 .frame .formulaire {
+    width: 70%;
     display: flex;
     flex-direction: column;
-    width: 50%;
     align-items: center;
     justify-content: center;
     gap: 32px;
@@ -445,7 +464,7 @@
     letter-spacing: 0;
     line-height: normal;
     margin-top: 20px; /* Pour ajouter de l'espace au-dessus du message */
-    width: 50%; /* Même largeur que .formulaire */
+    width: 70%; /* Même largeur que .formulaire */
     text-align: center; /* Aligner le texte au centre */
 }
 
@@ -560,7 +579,28 @@
 /* Format mobile */
 
 @media only screen and (max-width: 600px) {
-
+    .frame {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 81px;
+        padding: 52px 40px 90px;
+        position: relative;
+        }
+        .frame .frame-wrapper {
+            width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 28px;
+        padding: 1px 0px;
+        align-self: stretch;
+        width: 100%;
+        position: relative;
+        flex: 0 0 auto;
+        }
+        
 
     .div {
         display: flex;
@@ -586,7 +626,7 @@
     
     .frame .vous-avez-un-projet {
         position: relative;
-        width: 479px;
+        width: 100%;
         margin-top: -1px;
         margin-right: -169px;
         font-family: "Roboto-Medium", Helvetica;
@@ -597,7 +637,7 @@
         line-height: normal;
     }
     
-    .frame .text-wrapper {
+    .frame .vous {
         font-weight: 500;
         color: #303030;
     }
@@ -708,9 +748,9 @@
     }
     
     .frame .formulaire {
+        width: 70%;
         display: flex;
         flex-direction: column;
-        width: 736px;
         align-items: center;
         justify-content: center;
         gap: 32px;
@@ -737,7 +777,7 @@
         letter-spacing: 0;
         line-height: normal;
         margin-top: 20px; /* Pour ajouter de l'espace au-dessus du message */
-        width: 736px; /* Même largeur que .formulaire */
+        width:70%; /* Même largeur que .formulaire */
         text-align: left; /* Aligner le texte au centre */
     }
     
@@ -856,7 +896,8 @@
     margin-top: 20px; /* Pour ajouter de l'espace au-dessus du message */
 }
 
-a{
+.noir{
+    color: black;
     text-decoration: none;
 }
 nordpass-icon {

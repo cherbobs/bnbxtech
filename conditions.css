@@ -383,6 +383,8 @@
     }
 }
 
-#white{
-  color:white;
+.white{
+    text-decoration: none;
+    color:white;
 }
+

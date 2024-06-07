@@ -112,7 +112,7 @@
   .page .frame {
     position: relative;
     width: 600px;
-    height: 410px;
+    height: 100;
   }
   
   .page .overlap-group {
@@ -207,30 +207,33 @@
   
   .page .type {
     position: relative;
-    width: 50px;
-    height: 69px;
+    width: 100%;
+    height: fit-content;
   }
   
   .page .overlap-group-2 {
     position: relative;
-    width: 444px;
-    height: 70px;
+    width: 100%;
+    height: auto; /* Ajuster la hauteur en fonction du contenu */
     top: -1px;
+    display: flex;
+    flex-direction: column;
   }
   
   .page .text-wrapper-6 {
-    position: absolute;
-    height: 69px;
+    position: relative; /* Retirer le positionnement absolu */
+    height: auto; /* Ajuster la hauteur en fonction du contenu */
+    word-wrap: break-word; /* Permettre le retour à la ligne */
     top: 0;
     left: 0;
     font-family: "Playfair Display Bold", serif;
     font-style: italic;
     font-weight: 700;
-    font-style: italic;
     color: #3355ff;
     font-size: 52px;
     letter-spacing: 5.2px;
-    line-height: normal;
+    line-height: normal; 
+
   }
   
   
@@ -953,7 +956,7 @@
 
 /* Format tablette */
 
-@media only screen and (min-width: 601px) and (max-width: 1024px) {
+@media only screen and (min-width: 781px) and (max-width: 1024px) {
   .page .en-tete {
       display: flex;
       flex-direction: column;
@@ -1116,6 +1119,7 @@
   }
 
   .page .texte-a-propos {
+      height: fit-content;
       display: flex;
       flex-direction: column;
       align-items: flex-start;
@@ -1127,6 +1131,7 @@
   }
 
   .page .a-propos-de-nous {
+
       position: relative;
       align-self: stretch;
       margin-top: -1px;
@@ -1139,6 +1144,7 @@
   }
 
   .page .texte-nos-clients {
+      height: fit-content;
       display: inline-flex;
       flex-direction: column;
       align-items: flex-start;
@@ -1149,6 +1155,7 @@
   }
 
   .page .nos-clients-sont {
+    height: fit-content;
       position: relative;
       width: 471px;
       margin-top: -1px;
@@ -1161,31 +1168,34 @@
   }
 
   .page .text-wrapper-4 {
+      height: fit-content;
       color: #303030;
       letter-spacing: 1.6px;
   }
 
   .page .text-wrapper-5 {
+      height: fit-content;
       color: #3355ff;
       letter-spacing: 1.6px;
   }
 
   .page .type {
       position: relative;
-      width: 50px;
-      height: 69px;
+      width: 100%;
+      height: fit-content;
   }
 
   .page .overlap-group-2 {
       position: relative;
-      width: 342px;
-      height: 68px;
+      width: 100%;
+      height: auto;
       top: 1px;
   }
 
   .page .text-wrapper-6 {
-      position: absolute;
-      height: 53px;
+      position: relative; /* Retirer le positionnement absolu */
+      height: auto; /* Ajuster la hauteur en fonction du contenu */
+      word-wrap: break-word; /* Permettre le retour à la ligne */
       top: 14px;
       left: 0;
       font-family: "Playfair Display", Helvetica;
@@ -1953,7 +1963,7 @@
 
 /* Format mobile */
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 780px) {
 
 .en-tete {
   display: flex;
@@ -2197,20 +2207,21 @@
 .page .type {
     position: relative;
     align-self: stretch;
+    height: fit-content;
     width: 100%;
-    height: 56px;
 }
 
 .page .overlap-group-2 {
     position: relative;
-    width: 274px;
-    height: 43px;
+    width: 100%;
+    height: auto;
     top: -1px;
 }
 
 .page .text-wrapper-6 {
-    position: absolute;
-    height: 43px;
+    position: relative; /* Retirer le positionnement absolu */
+    height: auto; /* Ajuster la hauteur en fonction du contenu */
+    word-wrap: break-word; /* Permettre le retour à la ligne */
     top: 0;
     left: 0;
     font-family: "Playfair Display", Helvetica;
@@ -2516,6 +2527,7 @@
   padding: 40px;
   position: relative;
   background-color: #f1f3f9;
+  width: 100%;
 }
 
 .nos-actualites-target .bloc-actualites {
@@ -2726,7 +2738,7 @@
 }
 
 .page .image-3 {
-  background-image: url(./img/diagnostic-missiles.png);
+  background-image: url(./img/controle-electrique.png);
   background-size: cover;
   background-position: 50% 50%;
   position: relative;

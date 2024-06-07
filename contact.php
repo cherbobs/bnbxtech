@@ -33,24 +33,24 @@
                     <div class="div">
                         <div class="div-2">
                             <p class="vous-avez-un-projet">
-                                <span class="text-wrapper">Vous avez un </span>
+                                <span class="vous">Vous avez un </span>
                                 <span class="span">projet</span>
-                                <span class="text-wrapper"> ? </span>
+                                <span class="vous"> ? </span>
                             </p>
                             <p class="p">Résumez-le en quelques lignes, nous vous répondrons rapidement.</p>
                         </div>
                         <div class="div-3">
                             <div class="div-4">
-                                <img class="img" src="img/phone.svg" />
-                                <p class="text-wrapper-2"><a href="tel:+33130054000">+33 1 30 05 40 00</a></p>
+                                <img class="img" src="img/Phone-noir.svg" />
+                                <p class="text-wrapper-2"><a href="tel:+33130054000" class="noir">+33 1 30 05 40 00</a></p>
                             </div>
                             <div class="div-4">
                                 <img class="img" src="img/envelope-simple.svg" />
-                                <div class="text-wrapper-2"><a href="mailto:contact@bnbxtech.com">contact@bnbxtech.com</a></div>
+                                <div class="text-wrapper-2"><a href="mailto:contact@bnbxtech.com" class="noir">contact@bnbxtech.com</a></div>
                             </div>
                             <div class="div-4">
                                 <img class="img" src="img/map-pin.svg" />
-                                <p class="text-wrapper-3"><a href="https://www.google.com/maps?q=54+rue+Panicale,+78320,+LA+VERRIERE,+FRANCE" target="_blank">54 rue Panicale, 78 320, LA VERRIERE, FRANCE</a></p>
+                                <p class="text-wrapper-3"><a class="noir" href="https://www.google.com/maps?q=54+rue+Panicale,+78320,+LA+VERRIERE,+FRANCE" target="_blank">54 rue Panicale, 78 320, LA VERRIERE, FRANCE</a></p>
                             </div>
                             <div class="div-4">
                                 <img class="img" src="img/tram.svg" />
@@ -76,56 +76,56 @@
             </div>
 
             <section class="footer">
-                    <div class="bloc-footer">
-                        <div class="primary-footer">
-                            <div class="rectangle"></div>
-                            <div class="div">
-                                <img class="logo" src="img/logo-bnbxtech-blanc.svg" />
-                                <div class="information">
-                                    <div class="frame1">
-                                        <div class="frame-2">
-                                            <div class="office-address">
-                                                <img class="img" src="img/MapPin.svg" />
-                                                <p class="ABC-company"><a href="https://www.google.com/maps?q=54+rue+Panicale,+78320,+LA+VERRIERE,+FRANCE" target="_blank">54 rue Panicale, 78 320, LA VERRIERE, FRANCE</a></p>
-                                            </div>
-                                            <div class="frame-3">
-                                                <div class="div-2">
-                                                    <img class="img" src="img/Phone.svg" />
-                                                    <p class="element"><a href="tel:+33130054000">+33 1 30 05 40 00</a></p>
+                        <div class="bloc-footer">
+                            <div class="primary-footer">
+                                <div class="rectangle"></div>
+                                <div class="div">
+                                    <img class="logo" src="img/logo-bnbxtech-blanc.svg" />
+                                    <div class="information">
+                                        <div class="frame1">
+                                            <div class="frame-2">
+                                                <div class="office-address">
+                                                    <img class="img" src="img/MapPin.svg" />
+                                                    <p class="ABC-company"><a href="https://www.google.com/maps?q=54+rue+Panicale,+78320,+LA+VERRIERE,+FRANCE" target="_blank" class="white">54 rue Panicale, 78 320, LA VERRIERE, FRANCE</a></p>
                                                 </div>
-                                                <div class="div-2">
-                                                    <img class="img" src="img/EnvelopeSimple.svg" />
-                                                    <div class="element"><a href="mailto:contact@bnbxtech.com">contact@bnbxtech.com</a></div>
+                                                <div class="frame-3">
+                                                    <div class="div-2">
+                                                        <img class="img" src="img/Phone.svg" />
+                                                        <p class="element "><a href="tel:+33130054000" class="white">+33 1 30 05 40 00</a></p>
+                                                    </div>
+                                                    <div class="div-2">
+                                                        <img class="img" src="img/EnvelopeSimple.svg" />
+                                                        <div class="element"><a href="mailto:contact@bnbxtech.com" class="white">contact@bnbxtech.com</a></div>
+                                                    </div>
                                                 </div>
+                                                <img class="img" src="img/LinkedinLogo.svg" />
                                             </div>
-                                            <img class="img" src="img/LinkedinLogo.svg" />
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="secondary-footer-wrapper">
-                            <div class="secondary-footer">
-                                <div class="rectangle-2"></div>
-                                <div class="secondary-footer-2">
-                                    <div class="frame-4">
-                                        <a href="index.html" class="liens">ACCUEIL</a>
-                                        <a href="index.html#nos-services-target" class="liens">NOS SERVICES</a>
-                                        <a href="index.html#nos-realisations-target" class="liens">NOS RÉALISATIONS</a>
-                                        <a href="index.html#nos-actualites-target" class="liens">ACTUALITÉS</a>
-                                        <a href="contact.php" class="liens">CONTACT</a>
-
+                            <div class="secondary-footer-wrapper">
+                                <div class="secondary-footer">
+                                    <div class="rectangle-2"></div>
+                                    <div class="secondary-footer-2">
+                                        <div class="frame-4">
+                                            <a href="index.html" class="liens">ACCUEIL</a>
+                                            <a href="index.html#nos-services-target" class="liens">NOS SERVICES</a>
+                                            <a href="index.html#nos-realisations-target" class="liens">NOS RÉALISATIONS</a>
+                                            <a href="index.html#nos-actualites-target" class="liens">ACTUALITÉS</a>
+                                            <a href="contact.php" class="liens">CONTACT</a>
+    
+                                        </div>
+                                        <div class="secondary-footer-3">
+                                            <div class="copyright-m"><a href="terms-conditions.html" class="white">Termes et conditions</a></div>
+                                            <div class="copyright-m"><a href="cgv.html" class="white">Conditions générales de vente</a></div>
+                                        </div>
+                                        <p class="Copyright">Copyright © 2024 • BNB SAS</p>
                                     </div>
-                                    <div class="secondary-footer-3">
-                                        <div class="copyright-m"><a href="terms-conditions.html">Termes et conditions</a></div>
-                                        <div class="copyright-m"><a href="cgv.html">Conditions générales de vente</a></div>
-                                    </div>
-                                    <p class="Copyright">Copyright © 2024 • BNB SAS</p>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                </section>
+                    </section>
         </div>
     </body>
 </html>
